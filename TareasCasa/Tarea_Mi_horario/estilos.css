@@ -4,6 +4,7 @@ table {
     border-radius: 20px;
     width: 80%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 th{
@@ -31,3 +32,6 @@ td {
     background-color: #fdfd96;
 }
 
+.vacio{
+    background-color: #f3b385;
+}
