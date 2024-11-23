@@ -1,5 +1,10 @@
-<?php  include 'header.php';
+<?php
+include "./header.php";
 session_start();
+if (!isset($_SESSION['numero_mascota'])) {
+  header("location: ./autorizacion.php");
+  exit(); 
+}
 ?>
 <header>
     <h4 class="center">Eliminar Usuario:</h4>

@@ -1,11 +1,11 @@
 <?php
 include "./header.php";
+session_start();
+if (!isset($_SESSION['numero_mascota'])) {
+  header("location: ./autorizacion.php");
+  exit(); 
+}
 ?>
-
-<?php
-session_start(); // Asegúrate de iniciar la sesión
-?>
-
 
 <?php
 require "logica/conexion.php";

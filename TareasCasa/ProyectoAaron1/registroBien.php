@@ -1,4 +1,12 @@
-<?php require "./header.php"; ?>
+<?php
+include "./header.php";
+session_start();
+if (!isset($_SESSION['numero_mascota'])) {
+  header("location: ./autorizacion.php");
+  exit(); 
+}
+?>
+
 
 
 <div class="row" style="margin-top:50px">
