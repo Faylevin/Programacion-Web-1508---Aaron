@@ -20,7 +20,7 @@ include './logica/conexion.php';
   </div>
   
    <button type="submit" class="btn-large waves-effect waves-light green lighten-1" style="background-color:black;color:white">Iniciar Sesion</button>
-
+   <a class='btn-large waves-effect waves-light red lighten-1' href='salir.php'>Salir</a>
   </form>
   
 </div>
