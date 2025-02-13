@@ -5,7 +5,7 @@ require "logica/conexion.php";
 session_start();
 
 if (!isset($_SESSION['usuario'])) {
-    header("location: ./autorizacion.php");
+    header("location: ./index.php");
     exit();
 }
 

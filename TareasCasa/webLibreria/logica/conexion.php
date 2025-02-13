@@ -1,6 +1,6 @@
 <?php
 
-    $host_db="127.0.0.1:3306";
+    $host_db="localhost:3306";
     $user_name="root";
     $user_pass="berserk";
     $db_name="libreria";
