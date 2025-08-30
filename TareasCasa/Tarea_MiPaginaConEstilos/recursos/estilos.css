@@ -1,0 +1,65 @@
+body{
+    background-color: #84b6f4;
+    font-family: sans-serif ;
+    padding: 5em ;
+}
+
+.fondoBlanco{
+    background-color: white;
+}
+
+.fondoNaranja{
+    background-color: #f9d99a;
+}
+
+.fondoNegro{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 12px;
+}
+
+.ImagenLogo{
+    width: 200px;
+}
+
+.texto1{
+    text-align: center;
+    font-size: 3em;
+    color: #fa5f49;
+}
+
+.texto2{
+    font-size: 1em;
+    color: #456ea0;
+    text-align: justify;
+}
+
+.texto3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.separacion{
+    padding: 1em;
+    background-color: #FFF5BA;
+}
+
+.borde{
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+.bordeAzul{
+    border: 2px solid #f9d99a;
+    border-radius: 10px;
+}
+
+.bordeVerde{
+    border: 2px solid #FFF5BA;
+    border-radius: 10px;
+}
+
+li{
+    margin-top: 20px;
+}

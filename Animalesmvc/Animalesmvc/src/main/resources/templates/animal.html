@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="index :: head">
+    <meta charset="UTF-8">
+    <title>Animal</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+<nav th:replace="index :: navbar"></nav>
+
+<div class="d-flex justify-content-center my-4" >
+    <div class="card" style="width: 18rem; border: 2px solid black;">
+    <img th:src="${animal.imagen}" class="card-img-top" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title" th:text="${animal.nombre}">Card title</h5>
+        <p class="card-text" th:text="${animal.especie}">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item" th:text="${animal.raza} ">An item</li>
+        <li class="list-group-item" th:text="${animal.edad}">A second item</li>
+        <li class="list-group-item" th:text="${animal.peso}">A third item</li>
+    </ul>
+</div>
+</div>
+
+<div th:replace="index :: jsincludes">
+
+</div>
+<footer th:replace="index :: footer"></footer>
+
+</body>
+</html>
